@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import Landing from './components/Landing'
 
 
 function App() {
@@ -6,7 +7,7 @@ function App() {
 
   return (
     <h1 className="text-3xl font-bold underline">
-        Hello world!
+        <Landing />
     </h1>
   )
 }
