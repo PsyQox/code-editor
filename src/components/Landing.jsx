@@ -41,6 +41,7 @@ useEffect(() => {
     handleCompile();
     }
 }, [ctrlPress, enterPress]);
+
 const onChange = (action, data) => {
     switch (action) {
     case "code": {
